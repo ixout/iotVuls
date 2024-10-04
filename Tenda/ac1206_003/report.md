@@ -30,9 +30,12 @@ When `command` is `ifconfig`, the `ate_ifconfig_set` function is entered, in whi
 
 ```py
 import socket
+import time
 import os
 
 os.system('curl http://192.168.0.10/goform/ate')
+
+time.sleep(3)
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
