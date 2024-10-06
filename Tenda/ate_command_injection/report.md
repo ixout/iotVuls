@@ -41,7 +41,7 @@ In the above mentioned devices, an `ate` processing function is defined in httpd
 This function may have two situations
 1. This function directly implements ate processing
 
-   ![2024-10-05_191103](D:\ctfWork\iot\tenda\ate_report\2024-10-05_191103.png)
+   ![2024-10-05_191103](2024-10-05_191103.png)
 
 2. Implements ate processing by starting /bin/ate or /sbin/td_ate
 
